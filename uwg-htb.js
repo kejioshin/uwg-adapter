@@ -389,7 +389,7 @@ function UWGHtb(configs) {
         }
         //? }
 
-        __baseUrl = Browser.getProtocol() + '//ib.adnxs.com/ttj';
+        __baseUrl = Browser.getProtocol() + '//secure.adnxs.com/jpt';
         __parseFuncPath = SpaceCamp.NAMESPACE + '.' + __profile.namespace + '.adResponseCallback';
 
         __baseClass = Partner(__profile, configs, null, {
